@@ -27,7 +27,11 @@ grunt.initConfig({
 });
 
 grunt.loadNpmTasks('grunt-polyfill-builder');
+```
 
+You can then run the task using the following command:
+```
+grunt polyfill
 ```
 
 ## Options
