@@ -1,0 +1,29 @@
+{
+  "name": "grunt-polyfill-builder",
+  "version": "0.1.0",
+  "description": "Build a polyfill file using core-js modules",
+  "files": "tasks",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drummerboof/grunt-polyfill-builder.git"
+  },
+  "keywords": [
+    "grunt",
+    "polyfill",
+    "core-js",
+    "builder",
+    "es5",
+    "es6"
+  ],
+  "author": "Chris James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drummerboof/grunt-polyfill-builder/issues"
+  },
+  "homepage": "https://github.com/drummerboof/grunt-polyfill-builder#readme",
+  "dependencies": {
+    "core-js": "2.0.3",
+    "grunt": "0.4.5",
+    "webpack": "1.12.12"
+  }
+}
