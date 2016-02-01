@@ -5,7 +5,6 @@ var webpack = require('webpack'),
     path = require('path');
 
 module.exports = function(grunt) {
-    console.log(__dirname);
 
     function featureToModule (feature) {
         var modulePath = 'core-js/modules/' + feature;
