@@ -1,6 +1,6 @@
 {
   "name": "grunt-polyfill-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build a polyfill file using core-js modules",
   "files": "tasks",
   "repository": {
