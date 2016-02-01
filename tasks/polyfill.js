@@ -5,11 +5,11 @@ var webpack = require('webpack'),
     path = require('path');
 
 module.exports = function(grunt) {
+    console.log(__dirname);
 
     function featureToModule (feature) {
-        var path ='core-js/modules/' + feature;
-        require(path); // Hacky way to ensure the feature exists as a module
-        return path;
+        var modulePath = 'core-js/modules/' + feature;
+        return require.resolve(modulePath);
     }
 
     grunt.registerTask('polyfill', 'Creates a custom polyfill based on the core-js features given in the config', function () {
